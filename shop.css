@@ -1,0 +1,93 @@
+@import url("https://fonts.googleapis.com/css2?family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&display=swap");
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  font-family: "Poppins", sans-serif;
+}
+
+.header {
+  display: flex;
+  gap: 25%;
+  padding: 10px;
+  align-items: center;
+  /* justify-content: center; */
+  z-index: 1;
+  position: fixed;
+  background-color: white;
+  width: 100%;
+}
+
+.text {
+  font-size: 27px;
+}
+
+.logo {
+  width: 50px;
+  height: 32px;
+}
+
+.header-content {
+  display: flex;
+}
+
+.a {
+  text-decoration: none;
+  color: black;
+}
+
+.a:hover {
+  color: blue;
+}
+
+.header-content1 {
+  text-decoration: none;
+  display: flex;
+  gap: 35px;
+}
+
+.header-content2 {
+  display: flex;
+  gap: 25px;
+}
+
+.header-img {
+  width: 28px;
+  height: 28px;
+}
+.header-img:hover {
+  cursor: pointer;
+}
+
+.shop {
+  background-image: url("/shop images/Rectangle 1.png");
+  background-size: cover;
+  padding: 8%;
+}
+
+.shop-link {
+  display: flex;
+  gap: 10px;
+  justify-content: center;
+  text-align: center;
+}
+
+.shop-link1 {
+  text-decoration: none;
+}
+
+.shop-link1:hover {
+  color: brown;
+  cursor: pointer;
+}
+
+.shop-text {
+  justify-content: center;
+  text-align: center;
+}
+
+.line{
+    border: 2px solid black;
+     width: 1px; 
+  height: 30px;
+}
