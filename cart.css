@@ -18,6 +18,12 @@
   width: 100%;
 }
 
+@media (min-width: 884px) {
+  .icon-hamburger {
+    display: none;
+  }
+}
+
 
 .l{
     text-decoration: none;
@@ -217,7 +223,7 @@
   text-decoration: none;
 }
 
-@media (max-width: 428px) {
+@media (max-width: 768px) {
   .link {
     margin-bottom: 2%;
     padding: 0;
@@ -229,7 +235,7 @@
   text-decoration: none;
 }
 
-@media (max-width: 428px) {
+@media (max-width: 768px) {
   .link1 {
     margin-bottom: 2%;
     padding: 0;
@@ -244,7 +250,7 @@
   padding-bottom: 20%;
 }
 
-@media (max-width: 428px) {
+@media (max-width: 768px) {
   .footer p {
     padding-bottom: 5%;
   }
